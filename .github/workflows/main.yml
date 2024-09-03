@@ -26,7 +26,7 @@ jobs:
           apt-get install jq -y
 
       - name: Download build
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: NuGet
           path: .artifacts
